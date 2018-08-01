@@ -1,0 +1,261 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,vietnamese,latin-ext);
+@font-face {
+    font-family: 'museo_slab500';
+    src: url('../fonts/Museo_Slab_500_2-webfont.woff2') format('woff2'),
+         url('../fonts/Museo_Slab_500_2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	margin: 0px;
+	background-color:#f4f4f4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'Roboto',Arial,sans-serif;
+   margin:0;
+   padding:0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.main {
+	max-width:1065px;
+	margin:auto;
+	width:100%;
+    }
+.clear { clear:both;}
+.bg-white{
+    background-color: #ffffff;
+}
+.margin-top-30{
+    margin-top: 30px;
+}
+.margin-right-16{
+    margin-right:16px;
+}
+.margin-left-16{
+    margin-left:16px;
+}
+.padding-left-20{
+    padding-left:20px;
+}
+.padding-top-30{
+    padding-top: 30px;
+}
+.padding-top-40{
+    padding-top: 40px;
+}
+.w-5{
+    width:5%;
+}
+.w-10{
+    width:10%;
+}
+.w-80{
+    width:80%;
+}
+.w-90{
+    width:90%;
+}
+.w-25{
+    width:25%;
+}
+.w-20{
+    width:20%;
+}
+.w-33{
+    width:33.33%;
+}
+.button2{
+    border-radius: 4px;
+}
+.header{
+    width: 100%;
+    min-height:109px;
+    float: left;
+    display: block;
+}
+.header .logo{
+    padding-top:27px;
+    float: left;
+}
+.header .navi{
+    float: right;
+}
+.header .navi .menu-top{
+    width:100%;
+	margin:0px;
+	padding:0px;
+}
+.header .navi .menu-top li{
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size:20px;
+    color:#454545;
+    font-weight: 400;
+    float:left;
+    list-style:none;
+    padding-left:34px;
+	line-height:109px;
+    text-align:center;
+    
+}
+.header .navi .menu-top li a{
+}
+.content{
+    width:100%;
+    display:block;
+    float:left;
+}
+.main-box{
+    width:100%;
+    height:424px;
+}
+.slider{
+    min-height:676px;
+    width:100%;
+    background-image:url('../image/background.jpg');
+}
+.slider .slider-top{
+    float:left;
+    display:block;
+}
+.slider .slider-top .CTA{
+    width:42%;
+    float:left;
+    padding-top:100px;
+}
+.slider .slider-top .CTA .lorem-ipsum{
+    width:100%;
+    float:left;
+    font-size:40px;
+    font-weight: 700;
+    font-family:'museo_slab500';
+    color:#ffffff;
+}
+.slider .slider-top .CTA .check-list {
+    width:100%;
+    float:left;
+    list-style-image: url('../image/Check-icon.png');
+}
+.slider .slider-top .CTA .check-list li{
+    font-family:'museo_slab500';
+    font-size:20px;
+    font-weight: 500;
+    color:#ffffff;
+    list-style-image: url('../image/Check-icon.png');
+}
+
+.slider .slider-top .big-card{
+    padding-top:100px;
+    float:right;
+    width:48%;
+}
+.slider .slider-bottom{
+    float:left;
+    width:100%;
+    display:block;
+}
+.slider .slider-bottom button{
+    width:340px;
+    height: 91px;
+    background-color: #ff931f;
+    border: none;
+    cursor: pointer;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    text-align: left;
+    padding:12px 20px 10px 30px;
+}
+.slider .slider-bottom .card-slider{
+    width:48%;
+    float:right;
+}
+.row{
+}
+.col{
+    float:left;
+}
+.sub-card{
+    width:100%;
+}
+.slider-bottom .row .col .row .col img {
+    width:100%;
+}
+.message-box{
+    min-height: 415px;
+    margin-top: 60px;
+    padding-left:30px;
+    padding-right:20px;
+    
+}
+.message-box .text1{
+    font-family: 'museo_slab500';
+    font-size: 15px;
+    color: #454545;
+    font-weight: 600;
+}
+.message-box .text2{
+    font-family: 'museo_slab500';
+    font-size: 13px;
+    color: #454545;
+    margin-top: 30px;
+    font-weight: 100;
+}
+.message-box .text3{
+    margin-top:30px;
+}
+.message-box .text3 a{
+    color:orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer{
+    width:100%;
+    min-height: 160px;
+    display:block;
+    float:left;
+    background-color: #6897b5;
+    margin-top:60px;
+}
+.footer .logo{
+    margin-top:50px;
+    float:left;
+}
+.footer .info{
+    float:left;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    vertical-align: middle;
+    color: #acc6d7;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.footer .navi{
+    float:right;
+    margin-top: 50px;
+}
+.footer .navi .menu-bottom{
+    width:100%;
+	margin:0px;
+    padding:0px;
+}
+.footer .navi .menu-bottom li{
+    font-family: 'museo_slab500';
+    float:left;
+    list-style:none;
+    padding-left:30px;
+    font-size:18px;
+    font-weight: 600;
+    text-align:center;
+    color: #ffffff;
+}
+.footer .navi .menu-bottom li a{
+}
