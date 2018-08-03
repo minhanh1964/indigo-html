@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>test</title>
+    <title>Indigo</title>
 
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
@@ -24,12 +24,32 @@
             </div>
             <div class="navi">
                 <ul class="menu-top">
-                    <li>ABOUT</li>
-                    <li>ABOUT US</li>
-                    <li>CUSTOMER SERVICE</li>
-                    <li>SECURE SITE</li>
+                    <li class=menu-item>
+                        <a href="#">ABOUT</a>
+                    </li>
+                    <li class=menu-item>
+                        <a href="#">ABOUT US</a>
+                    </li>
+                    <li class=menu-item>
+                        <a href="#">CUSTOMER SERVICE</a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">COMPLAIN</a>
+                            </li>
+                            <li>
+                                <a href="#">PRAISE</a>
+                            </li>
+                            <li>
+                                <a href="#">ETC</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=menu-item>
+                        <a href="#">SECURE SITE
+                        </a>
+                    </li>
                     <li style="float:right;">
-                        <img src="image/Lock-icon.png"> </li>
+                        <img src="image/Lock-icon.png" </li>
                 </ul>
             </div>
         </div>
@@ -38,65 +58,66 @@
     <div class="content">
         <div class="slider">
             <div class="main">
-                <div class="slider-top">
-                    <div class="CTA">
-                        <div class="lorem-ipsum">
-                            Lorem ipsum dolor sit nostro consectetur sed do labore et Indigo®
-                        </div>
-                        <ul class="check-list margin-top-30">
-                            <li>Quick Pre-Qualification
-                                <br>(No Impact to your Credit Score)</li>
-                            <li>60 Second Decision</li>
-                            <li>Choose Your Card Design - FREE</li>
-                            <li>Moblie Account Access</li>
-                        </ul>
+                <div class="CTA">
+                    <div class="lorem-ipsum">
+                        Lorem ipsum dolor sit nostro consectetur sed do labore et Indigo®
                     </div>
-                    <div class="big-card">
-                        <img src="image/big-card-test.png">
-                    </div>
-                    <div class="clear"></div>
-                </div>
-                <div class="slider-bottom">
-                    <button class="button2">
+                    <ul class="check-list margin-top-30">
+                        <li>Quick Pre-Qualification
+                            <br>(No Impact to your Credit Score)</li>
+                        <li>60 Second Decision</li>
+                        <li>Choose Your Card Design - FREE</li>
+                        <li>Moblie Account Access</li>
+                    </ul>
+                    <button class="button2 margin-top-14">
                         <h2>PRE-QUALIFY NOW</h2>
                         <h4>No Impact to Credit Score</h4>
                     </button>
-                    <div class="card-slider">
-                        <div class="row margin-top-30">
-                            <div class="col w-5">
-                                <p style="vertical-align: middle;">
-                                    <img src="image/arrow-left-icon.png">
-                                </p>
-                            </div>
-                            <div class="col w-90">
-                                <div class="row">
-                                    <div class="col w-20 margin-right-16 margin-left-16">
-                                        <div class="sub-card">
-                                            <img src="image/big-card-test.png">
-                                        </div>
+                </div>
+
+
+                <div class="card-slider">
+                    <div class="big-card">
+                        <img class="slide" src="image/big-card-test.png">
+                        <img class="slide" src="image/pic2.png" width="513px" height="321px">
+                        <img class="slide" src="image/pic3.png" width="513px" height="321px">
+                        <img class="slide" src="image/pic4.png" width="513px" height="321px">
+                    </div>
+                    <div class="clear"></div>
+                    <div class="row margin-top-30">
+                        <div class="col w-5">
+                            <p style="vertical-align: middle;">
+                                <img src="image/arrow-left-icon.png">
+                            </p>
+                        </div>
+                        <div class="col w-90">
+                            <div class="row">
+                                <div class="col w-25">
+                                    <div class="sub-card">
+                                        <img src="image/big-card-test.png" onclick="currentDiv(1)">
                                     </div>
-                                    <div class="col w-20 margin-right-16">
-                                        <div class="sub-card">
-                                            <img src="image/pic2.png">
-                                        </div>
+                                </div>
+                                <div class="col w-25">
+                                    <div class="sub-card">
+                                        <img src="image/pic2.png" onclick="currentDiv(2)">
                                     </div>
-                                    <div class="col w-20 margin-right-16">
-                                        <div class="sub-card">
-                                            <img src="image/pic3.png">
-                                        </div>
+                                </div>
+                                <div class="col w-25">
+                                    <div class="sub-card">
+                                        <img src="image/pic3.png" onclick="currentDiv(3)">
                                     </div>
-                                    <div class="col w-20 margin-right-16">
-                                        <div class="sub-card">
-                                            <img src="image/pic4.png">
-                                        </div>
+                                </div>
+                                <div class="col w-25">
+                                    <div class="sub-card">
+                                        <img src="image/pic4.png" onclick="currentDiv(4)">
                                     </div>
                                 </div>
                             </div>
-                            <div class="col w-5">
-                                <p style="vertical-align: middle;">
-                                    <img src="image/arrow-right-icon.png" style="float:right;">
-                                </p>
-                            </div>
+                        </div>
+                        <div class="col w-5">
+                            <p style="vertical-align: middle;">
+                                <img src="image/arrow-right-icon.png" style="float:right;">
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -190,14 +211,40 @@
             </div>
             <div class="navi">
                 <ul class="menu-bottom">
-                    <li>PRIVACY</li>
-                    <li>FAQs</li>
-                    <li>SITE TERMS</li>
+                    <li>
+                        <a href="#">PRIVACY</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">SITE TERMS</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </div>
 
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("slide");
+
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
