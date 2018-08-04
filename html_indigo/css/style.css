@@ -82,6 +82,8 @@ img {
     border-radius: 4px;
 }
 
+/* --------- HEADER -----------*/
+
 .header{
     width: 100%;
     min-height:109px;
@@ -100,7 +102,7 @@ img {
 	margin:0px;
 	padding:0px;
 }
-.header .navi .menu-top li{
+.header .navi .menu-top li.li-atrribute1{
     
     font-size:20px;
     float:left;
@@ -113,7 +115,7 @@ img {
 .header .navi .menu-top .menu-item:last-child{
     padding-right: 0;
 }
-.header .navi .menu-top .menu-item a{
+.header .navi .menu-top .menu-item a.attribute1{
     font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
     color:#454545;
     text-decoration: none;;
@@ -137,18 +139,23 @@ img {
 
 }
 .sub-menu ul{margin:0;padding:0;}
-.sub-menu ul li{
+.sub-menu li{
     list-style: none;
     padding-left:10px;
     padding-right:10px;
 }
-.header .navi .menu-top .menu-item .sub-menu ul li a{
+.header .navi .menu-top .menu-item .sub-menu a{
+    color: #636262;
+    text-decoration: none;
 
 }
-.header .navi .menu-top .menu-item .sub-menu ul li a:hover{
+.header .navi .menu-top .menu-item .sub-menu li:hover{
     filter:opacity(0.9);
-    background-color:#ccc;
+    background-color:#ffffff;
 }
+
+/* --------- CONTENT -----------*/
+
 .content{
     width:100%;
     display:block;
@@ -267,6 +274,9 @@ img {
     font-weight: bold;
     text-decoration: none;
 }
+
+/* --------- FOOTER -----------*/
+
 .footer{
     width:100%;
     min-height: 160px;
